@@ -1,0 +1,69 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+form {
+    box-sizing: border-box;
+    width: 360px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin: 25px;
+}
+
+.delay {
+    box-sizing: border-box;
+    width: 360px;
+    height: 40px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    padding-left: 8px;
+    transition: border-color 500 ease;
+}
+
+.delay:hover {
+    border-color: #000000;
+}
+
+.delay:focus {
+    outline: none !important;
+    border-color: #4E75FF;
+}
+
+fieldset {
+    box-sizing: border-box;
+    padding: 24px 48px 8px 48px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+
+fieldset:hover,
+fieldset:focus {
+    border-color: #000000;
+}
+
+.rejected {
+    box-sizing: border-box;
+    margin-left: 48px;
+}
+
+button {
+    border-radius: 8px;
+    border: transparent;
+    padding: 8px 16px;
+    width: 360px;
+    height: 40px;
+    background: #4e75ff;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+button:hover {
+    background: #6c8cff;
+}
